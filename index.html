@@ -6,7 +6,7 @@
 	<title>Shagun Caterers & Tent House</title>
 </head>
 <body>
-	<div id="hoverbtn"><img src="img/support.png" onclick="HoverContact();"></div>
+	<div id="hoverbtn"><img src="img/support.png" style="z-index: 100;" onclick="HoverContact();"></div>
 <div><img src="img/top.png"></div>
 <nav><center><a href="#" class="navlink" onclick="NavShow(1);">Home</a>
 	<a href="#" class="navlink" onclick="NavShow(2);">About</a>
@@ -107,7 +107,7 @@ that is exceptional in taste.<br>
         <div class="modal-body">
           <p>Please enter your message</p>
           <input type="textarea" name="modaltext" class="form-control">
-          <input type="submit" name="submit" value="Send">
+          <input type="submit" name="submit" value="Send" class="btn btn-success">
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
