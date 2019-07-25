@@ -1,4 +1,13 @@
 
+
+function HoverContact(){
+         $("#myModal").modal();
+}
+
+
+
+
+
 function NavShow(value) {
 	
         switch(value) {
