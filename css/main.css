@@ -1,3 +1,7 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+</style> 
+
 .demo-card-wide.mdl-card {
   width: 512px;
 }
@@ -46,14 +50,18 @@ body {
 
               color: black;
               text-decoration: none;
-              margin: 40px 40px 40px 40px;
+            font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
 
 
 }
 
+
 a.navlink:hover {
- color: #9ACD32;
- text-decoration: none;
+   color: black;
+  text-decoration: none;
+ border-bottom-color: #C2185B;
+ border-bottom-style: solid;
+ border-bottom-width: 4px;
 }
 
 .footer {
@@ -104,3 +112,4 @@ border-radius: 10%;
 
 
 }
+
