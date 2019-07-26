@@ -10,6 +10,10 @@
   color: #fff;
 }
 
+.palletecolor {
+  background-color: #FF9800;
+}
+
 .RoundInfo {
 
   border-radius: 50%;
@@ -82,11 +86,11 @@ a.navlink:hover {
 }
 
 .effect1{
-   box-shadow: 0 0 10px rgba(0,0,0,0.6);
--moz-box-shadow: 0 0 10px rgba(0,0,0,0.6);
--webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
--o-box-shadow: 0 0 10px rgba(0,0,0,0.6);
-}
+   box-shadow: 0 0 5px rgba(0,0,0,0.2);
+-moz-box-shadow:  0 0 5px rgba(0,0,0,0.2);
+-webkit-box-shadow: 0 0 5px rgba(0,0,0,0.2);
+-o-box-shadow:  0 0 5px rgba(0,0,0,0.2);
+border-radius: 10%;
 
 .wedboxes {
                height: 40px;
