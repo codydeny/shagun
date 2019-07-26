@@ -17,6 +17,7 @@
 body {
    font-family: 'Source Sans Pro', sans-serif;
    font-weight: 300;
+   overflow-x: hidden;
 }
 
 #hoverbtn{
@@ -76,8 +77,8 @@ a.navlink:hover {
 }
 
 .wedboxes {
-               height: 50px;
-               width: 200px;
+               height: 40px;
+               width: 300px;
                background-color:black;
                color: white;
                border-style: solid;
