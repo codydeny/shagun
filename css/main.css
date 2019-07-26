@@ -1,22 +1,14 @@
-<!-- Uses a transparent header that draws on top of the layout's background -->
-<style>
-.demo-layout-transparent {
-  background: url('../assets/demos/transparent.jpg') center / cover;
+.demo-card-wide.mdl-card {
+  width: 512px;
 }
-.demo-layout-transparent .mdl-layout__header,
-.demo-layout-transparent .mdl-layout__drawer-button {
-  /* This background is dark, so we set text to white. Use 87% black instead if
-     your background is light. */
-  color: white;
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+  background: url('../assets/demos/welcome_card.jpg') center / cover;
 }
-</style>
-
-
-
-
-
-
-
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
 
 .RoundInfo {
 
