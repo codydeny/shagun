@@ -99,7 +99,7 @@ a.navlink:hover {
 -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.2);
 -o-box-shadow:  0 0 5px rgba(0,0,0,0.2);
 border-radius: 10%;
-
+}
 .wedboxes {
                height: 40px;
                width: 300px;
@@ -111,5 +111,12 @@ border-radius: 10%;
 
 
 
+}
+a{
+  font-family: sans-serif ;
+}
+@font-face {
+  font-family: "HelveticaNeue Light";
+  src: url("/fonts/HelveticaNeueL.tff") format('truetype');
 }
 
