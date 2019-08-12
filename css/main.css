@@ -18,6 +18,55 @@
   background-color: #3F51B5;
 }
 
+
+.card_main {
+ 
+ width: 500px;
+ 
+ transition: .5s;
+
+}
+
+.card_main:hover {
+ 
+
+ box-shadow: 0 0 10px rgba(0,0,0,0.2); 
+
+}
+
+.sub_card_1 {
+
+  transform: scale(1.4);
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.sub_card_2 {
+
+   box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.zoom {
+
+  transition: transform .7s;
+   /* Animation */
+
+}
+
+.zoom:hover {
+  transform: scale(1.09);
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+   /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+.aboutimg {
+           border-radius: 5%;
+           box-shadow: 0 0 10px rgba(0,0,0,0.2);
+
+
+}
+
+
 .RoundInfo {
 
   border-radius: 50%;
@@ -29,7 +78,7 @@
   border-color: #ffb199;
   align-content: center;
   margin-top: 250px;
-  margin-left: 510px;
+  margin-left: 400px;
   position: absolute;
   z-index: 100;
 }
@@ -123,6 +172,11 @@ div, div * {
     font-family: "HelveticaNeue Light";
   src: url("/fonts/HelveticaNeueL.tff") format('truetype');
 } 
+
+h1, h1 * {
+
+  
+}
 
 
 
