@@ -61,6 +61,8 @@
 
 .aboutimg {
            border-radius: 5%;
+           height: 600px;
+           width: 600px;
            box-shadow: 0 0 10px rgba(0,0,0,0.2);
 
 
